@@ -1,0 +1,2 @@
+# Machine-Learning-and-Data-Mining-Classification-and-Sentiment-Analysis
+ This project uses machine learning to predict wine quality based on the UCI Wine Quality dataset. Data preprocessing handled missing values and outliers. Among models tested (Logistic Regression, SVM, Decision Tree, Random Forest), Random Forest gave the highest accuracy (82%), demonstrating its effectiveness in imbalanced datasets.
