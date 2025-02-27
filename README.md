@@ -1,6 +1,5 @@
-Task 1: Classification Problem
-Dataset:
-Wine Quality Dataset
+**Task 1: Classification Problem**
+Dataset: Wine Quality Dataset
 Source: UCI Repository
 Features: 11 features including acidity, alcohol, pH, etc.
 Target: Wine quality, represented as an integer value between 0 and 10.
@@ -29,3 +28,35 @@ The Random Forest classifier achieved the highest accuracy of 82%.
 Key Insights:
 The Random Forest model outperformed other models, demonstrating its strength in handling imbalanced datasets and capturing complex relationships between features.
 This model can assist in optimizing wine production processes and improving quality control.
+
+
+
+**Task 2: Clustering Problem**
+Dataset:
+Bike Sharing Dataset
+Source: UCI Repository
+Features: Features such as season, temperature, humidity, and hour of the day.
+Target: The number of bike rentals (cnt), which we treat as a clustering problem.
+Problem Overview:
+In this task, we aim to uncover hidden patterns in the bike rental data by clustering different rental behaviors across various conditions. Using clustering techniques, the goal is to identify groups or patterns that could improve bike-sharing operations.
+
+Process:
+Exploratory Data Analysis (EDA):
+
+Visualized key features like temperature, humidity, and wind speed to understand their relationship with bike rentals.
+Handled missing values and normalized the features to ensure they are on a similar scale for clustering.
+Clustering Algorithms Applied:
+
+K-Means Clustering: A popular method for dividing data into distinct groups based on similarity.
+Agglomerative Clustering: A hierarchical clustering method that builds a tree of clusters.
+Evaluation Metrics:
+
+Used the Silhouette Score and Davies-Bouldin Index to assess the quality of the clusters formed by each algorithm.
+Compared results from different clustering techniques to find the best approach for identifying rental patterns.
+Results:
+
+K-Means performed better based on the Silhouette Score, indicating more distinct and well-separated clusters.
+The clustering revealed patterns in bike rentals across different seasons and times of day, helping to identify high-demand periods.
+Key Insights:
+The K-Means algorithm was able to effectively identify patterns in bike rental behavior.
+These insights can help bike-sharing businesses optimize bike distribution and station placements, improving operational efficiency.
