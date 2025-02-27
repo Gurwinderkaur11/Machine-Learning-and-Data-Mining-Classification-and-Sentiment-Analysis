@@ -41,13 +41,13 @@ Problem Overview:
 In this task, we aim to uncover hidden patterns in the bike rental data by clustering different rental behaviors across various conditions. Using clustering techniques, the goal is to identify groups or patterns that could improve bike-sharing operations.
 
 Process:
-Exploratory Data Analysis (EDA):
+**Exploratory Data Analysis (EDA):**
 
 Visualized key features like temperature, humidity, and wind speed to understand their relationship with bike rentals.
 Handled missing values and normalized the features to ensure they are on a similar scale for clustering.
 Clustering Algorithms Applied:
 
-K-Means Clustering: A popular method for dividing data into distinct groups based on similarity.
+**K-Means Clustering:** A popular method for dividing data into distinct groups based on similarity.
 Agglomerative Clustering: A hierarchical clustering method that builds a tree of clusters.
 Evaluation Metrics:
 
@@ -64,15 +64,15 @@ These insights can help bike-sharing businesses optimize bike distribution and s
 
 **Task 3: Sentiment Analysis**
 Dataset:
-Sentiment140 Dataset
+**Sentiment140 Dataset**
 Source: Sentiment140
 Features: Twitter data containing 1.6 million tweets, labeled as either positive or negative sentiment.
 Target: Sentiment (positive/negative).
 Problem Overview:
 This task focuses on classifying the sentiment of tweets as positive or negative. The goal is to develop a model that can analyze text data and predict the sentiment behind tweets, providing valuable insights into public opinion on various topics.
 
-Process:
-Exploratory Data Analysis (EDA):
+**Process:
+Exploratory Data Analysis (EDA):**
 
 Visualized the most frequent words in the dataset using a word cloud.
 Cleaned and preprocessed the text data by removing stop words and applying stemming to standardize the text.
@@ -81,11 +81,11 @@ Text Preprocessing:
 Tokenized the text data into individual words and transformed the text into numerical features using CountVectorizer, which converts words into a vector of word counts.
 Sentiment Analysis Models Applied:
 
-Logistic Regression
-Naive Bayes Classifier
-Support Vector Machine (SVM)
-Random Forest Classifier
-Evaluation Metrics:
+**Logistic Regression**
+**Naive Bayes Classifier**
+**Support Vector Machine (SVM)**
+**Random Forest Classifier**
+**Evaluation Metrics:**
 
 Evaluated model performance using classification reports, accuracy, precision, recall, and F1-score.
 Results:
