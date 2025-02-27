@@ -60,3 +60,38 @@ The clustering revealed patterns in bike rentals across different seasons and ti
 Key Insights:
 The K-Means algorithm was able to effectively identify patterns in bike rental behavior.
 These insights can help bike-sharing businesses optimize bike distribution and station placements, improving operational efficiency.
+
+
+**Task 3: Sentiment Analysis**
+Dataset:
+Sentiment140 Dataset
+Source: Sentiment140
+Features: Twitter data containing 1.6 million tweets, labeled as either positive or negative sentiment.
+Target: Sentiment (positive/negative).
+Problem Overview:
+This task focuses on classifying the sentiment of tweets as positive or negative. The goal is to develop a model that can analyze text data and predict the sentiment behind tweets, providing valuable insights into public opinion on various topics.
+
+Process:
+Exploratory Data Analysis (EDA):
+
+Visualized the most frequent words in the dataset using a word cloud.
+Cleaned and preprocessed the text data by removing stop words and applying stemming to standardize the text.
+Text Preprocessing:
+
+Tokenized the text data into individual words and transformed the text into numerical features using CountVectorizer, which converts words into a vector of word counts.
+Sentiment Analysis Models Applied:
+
+Logistic Regression
+Naive Bayes Classifier
+Support Vector Machine (SVM)
+Random Forest Classifier
+Evaluation Metrics:
+
+Evaluated model performance using classification reports, accuracy, precision, recall, and F1-score.
+Results:
+
+Naive Bayes Classifier performed well with an accuracy of 84%, making it effective in classifying tweets as positive or negative based on their content.
+The model demonstrated the ability to classify sentiment in real-time social media data.
+Key Insights:
+The Naive Bayes Classifier is a strong model for sentiment analysis on short text data like tweets.
+Businesses and organizations can use sentiment analysis to monitor social media conversations, track brand perception, and make data-driven decisions.
