@@ -6,8 +6,8 @@ Target: Wine quality, represented as an integer value between 0 and 10.
 Problem Overview:
 In this task, we aim to predict the quality of wines based on their chemical properties. Using the Wine Quality dataset, the objective is to classify wines into different quality categories using machine learning models.
 
-Process:
-Exploratory Data Analysis (EDA):
+**Process:
+Exploratory Data Analysis (EDA):**
 
 Analyzed the distribution of features and their correlations using visualization tools like Seaborn and Matplotlib.
 Handled missing values, scaled the features, and removed any outliers to ensure clean data for modeling.
@@ -17,7 +17,7 @@ Standardized the data using StandardScaler to bring all features to a similar sc
 Split the dataset into training and testing sets for model evaluation.
 Models Applied:
 
-Logistic Regression: A simple linear model to estimate the probability of wine quality classes.
+**Logistic Regression:** A simple linear model to estimate the probability of wine quality classes.
 Support Vector Machine (SVM): A powerful model for high-dimensional data classification.
 Random Forest Classifier: A robust ensemble method to capture complex patterns.
 Decision Tree Classifier: A simple tree-based model for understanding the decision-making process.
